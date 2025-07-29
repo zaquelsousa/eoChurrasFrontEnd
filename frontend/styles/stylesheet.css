@@ -1,0 +1,35 @@
+body{
+    background: #605a5b;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#Pedidos > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#Pedidos > div > div {
+    background: oklch(71.2% 0.194 13.428);
+    flex: 0 0 calc(33.333% - 10px);
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#Pedidos > div > div > h3 {
+    text-align: center;
+}
+
+.conteiner-bts {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+#Pedidos > div > div > ul {
+    list-style: none;
+} 
